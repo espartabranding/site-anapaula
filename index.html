@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Dra. Ana Paula Alves · Estética Avançada e Integrativa</title>
+<meta name="description" content="Farmacêutica esteta, mestre em Ciências Farmacêuticas. Tratamentos de pele, melasma, harmonização, tricologia e saúde integrativa em Conselheiro Lafaiete e Belo Horizonte." />
+<meta name="theme-color" content="#0C1918" />
+<meta property="og:title" content="Dra. Ana Paula Alves · Estética Avançada e Integrativa" />
+<meta property="og:description" content="Ciência, experiência e um olhar integrativo para a sua pele e os seus cabelos." />
+<meta property="og:image" content="imagens/fotos/retrato-lounge.jpg" />
+<meta property="og:locale" content="pt_BR" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
+<link rel="preload" as="image" href="imagens/fotos/retrato-lounge.webp" type="image/webp" fetchpriority="high" />
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Dra. Ana Paula Alves · Estética Avançada e Integrativa",
+  "image": "imagens/fotos/retrato-lounge.jpg",
+  "telephone": "+55 31 98014-0549",
+  "founder": {"@type": "Person", "name": "Ana Paula Alves", "jobTitle": "Farmacêutica esteta, mestre em Ciências Farmacêuticas"},
+  "address": [
+    {"@type": "PostalAddress", "streetAddress": "Av. Prof. Manoel Martins, 491, Sala 712, Edifício Central Tower", "addressLocality": "Conselheiro Lafaiete", "addressRegion": "MG", "postalCode": "36400-110", "addressCountry": "BR"},
+    {"@type": "PostalAddress", "streetAddress": "Av. Barbacena, 600, Office Med Consultórios", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "postalCode": "30180-060", "addressCountry": "BR"}
+  ],
+  "sameAs": ["https://www.instagram.com/draanapaula.clinica", "https://www.facebook.com/dra.anapaulaalves"]
+}
+</script>
+<style>
+:root {
+  --ink: #0C1918;
+  --ink-2: #10211F;
+  --ivory: #F4EFE7;
+  --paper: #EBE4D8;
+  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Jost', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ease: cubic-bezier(.22,.61,.2,1);
+  --g: clamp(20px, 5vw, 80px);
+  --r: 18px;
+}
+/* every section picks a theme; the components read these tokens */
+.dark  { --bg: var(--ink);   --fg: #EDE6DA; --soft: rgba(237,230,218,.74); --muted: #8D9692; --line: rgba(237,230,218,.13); --accent: #C2A27C; --card: rgba(255,255,255,.025); background: var(--bg); color: var(--fg); }
+.dark.deep { --bg: var(--ink-2); }
+.light { --bg: var(--ivory); --fg: #1C2826; --soft: #45524F; --muted: #737a77; --line: rgba(28,40,38,.14); --accent: #94744F; --card: rgba(255,255,255,.55); background: var(--bg); color: var(--fg); }
+.light.paper { --bg: var(--paper); }
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body { margin: 0; background: var(--ink); font-family: var(--sans); font-weight: 300; font-size: 16px; line-height: 1.75; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+::selection { background: #C2A27C; color: var(--ink); }
+:focus-visible { outline: 1px solid #C2A27C; outline-offset: 4px; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: var(--g); }
+.sec { padding-block: clamp(96px, 12vw, 168px); position: relative; }
+.eyebrow { display: inline-flex; align-items: center; gap: 14px; font-size: 10.5px; letter-spacing: .34em; text-transform: uppercase; color: var(--accent); font-weight: 400; }
+.eyebrow::before { content: ""; width: 28px; height: 1px; background: currentColor; opacity: .7; }
+.title { font-family: var(--serif); font-weight: 300; font-size: clamp(34px, 3.6vw, 54px); line-height: 1.1; letter-spacing: -.005em; margin: 22px 0 0; text-wrap: balance; }
+.title em { font-style: italic; color: var(--accent); }
+.lead { font-size: 16.5px; line-height: 1.85; color: var(--soft); max-width: 34em; margin: 22px 0 0; text-wrap: pretty; }
+.head { display: grid; grid-template-columns: 1fr 1fr; gap: 24px clamp(40px, 7vw, 120px); align-items: end; margin-bottom: clamp(48px, 6vw, 84px); }
+.head .lead { margin: 0; }
+.center { text-align: center; }
+.center .lead { margin-inline: auto; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 19px 38px; border: 1px solid var(--accent); font-size: 11px; letter-spacing: .26em; text-transform: uppercase; font-weight: 400; color: var(--fg); transition: background 500ms var(--ease), color 500ms var(--ease); }
+.btn:hover, .btn.fill { background: var(--accent); color: var(--bg); }
+.btn.fill:hover { background: transparent; color: var(--fg); }
+.link { display: inline-flex; align-items: center; gap: 12px; font-size: 10.5px; letter-spacing: .26em; text-transform: uppercase; padding-bottom: 7px; border-bottom: 1px solid var(--accent); transition: color 300ms, gap 400ms var(--ease); }
+.link::after { content: "→"; letter-spacing: 0; }
+.link:hover { color: var(--accent); gap: 18px; }
+.ph { position: relative; overflow: hidden; background: rgba(127,127,127,.12); border-radius: var(--r); isolation: isolate; }
+.ph img, .ph picture { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 1.6s var(--ease); }
+figure:hover .ph img { transform: scale(1.03); }
+.cap { margin-top: 12px; font-family: var(--serif); font-style: italic; font-size: 15.5px; color: var(--muted); line-height: 1.4; }
+
+
+/* ---------- French textures ---------- */
+/* cotton paper + linen on light sections, velvet on dark; a delicate paisley alternates with plain sections */
+.light { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .34 0 0 0 0 .24 0 0 0 .15 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E"), repeating-linear-gradient(0deg, rgba(120,96,64,.028) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(120,96,64,.024) 0 1px, transparent 1px 4px), radial-gradient(120% 80% at 50% 0%, rgba(255,255,255,.6), transparent 60%); }
+.dark { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='v'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .93 0 0 0 0 .88 0 0 0 0 .8 0 0 0 .06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23v)'/%3E%3C/svg%3E"), radial-gradient(90% 70% at 85% 10%, rgba(194,162,124,.08), transparent 60%), radial-gradient(80% 60% at 10% 100%, rgba(40,80,72,.3), transparent 65%); }
+.light.tx-paisley { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .34 0 0 0 0 .24 0 0 0 .15 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E"), url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27%3E%3Cg transform=%27translate%2812 8%29%27%3E%3Cg fill=%27none%27 stroke=%27%2394744F%27 stroke-opacity=%270.26%27 stroke-width=%27.6%27 stroke-linecap=%27round%27%3E%3Cpath d=%27M30 58C12 58 6 40 14 28 22 16 38 14 40 4c1 4 6 6 6 11 0 4-3 6-6 5%27/%3E%3Cpath d=%27M40 4c6 10 10 22 8 34-2 12-8 20-18 20%27/%3E%3Cpath d=%27M30 51C19 51 15 40 20 32c5-8 15-10 18-17 3 8 5 16 3 24-2 8-6 12-11 12Z%27/%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%273.6%27/%3E%3Cpath d=%27M30 32.5c1.6 1.8 1.6 2.6 0 3.2M30 45.5c1.6-1.8 1.6-2.6 0-3.2M23.5 39c1.8-1.6 2.6-1.6 3.2 0M36.5 39c-1.8-1.6-2.6-1.6-3.2 0%27/%3E%3Cpath d=%27M24 24c3-1 6-3 8-6%27 stroke-dasharray=%27.6 2.2%27/%3E%3C/g%3E%3Cg fill=%27%2394744F%27 fill-opacity=%270.26%27%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%27.9%27/%3E%3Ccircle cx=%2751%27 cy=%2726%27 r=%27.7%27/%3E%3Ccircle cx=%2752%27 cy=%2733%27 r=%27.7%27/%3E%3Ccircle cx=%2751%27 cy=%2740%27 r=%27.7%27/%3E%3Ccircle cx=%279%27 cy=%2738%27 r=%27.7%27/%3E%3C/g%3E%3C/g%3E%3Cg transform=%27translate%28138 142%29 rotate%28180%29%27%3E%3Cg fill=%27none%27 stroke=%27%2394744F%27 stroke-opacity=%270.26%27 stroke-width=%27.6%27 stroke-linecap=%27round%27%3E%3Cpath d=%27M30 58C12 58 6 40 14 28 22 16 38 14 40 4c1 4 6 6 6 11 0 4-3 6-6 5%27/%3E%3Cpath d=%27M40 4c6 10 10 22 8 34-2 12-8 20-18 20%27/%3E%3Cpath d=%27M30 51C19 51 15 40 20 32c5-8 15-10 18-17 3 8 5 16 3 24-2 8-6 12-11 12Z%27/%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%273.6%27/%3E%3Cpath d=%27M30 32.5c1.6 1.8 1.6 2.6 0 3.2M30 45.5c1.6-1.8 1.6-2.6 0-3.2M23.5 39c1.8-1.6 2.6-1.6 3.2 0M36.5 39c-1.8-1.6-2.6-1.6-3.2 0%27/%3E%3Cpath d=%27M24 24c3-1 6-3 8-6%27 stroke-dasharray=%27.6 2.2%27/%3E%3C/g%3E%3Cg fill=%27%2394744F%27 fill-opacity=%270.26%27%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%27.9%27/%3E%3Ccircle cx=%2751%27 cy=%2726%27 r=%27.7%27/%3E%3Ccircle cx=%2752%27 cy=%2733%27 r=%27.7%27/%3E%3Ccircle cx=%2751%27 cy=%2740%27 r=%27.7%27/%3E%3Ccircle cx=%279%27 cy=%2738%27 r=%27.7%27/%3E%3C/g%3E%3C/g%3E%3Cg transform=%27translate%2872 70%29 scale%28.45%29%27%3E%3Cg fill=%27%2394744F%27 fill-opacity=%270.26%27%3E%3Ccircle cx=%270%27 cy=%270%27 r=%271.6%27/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), repeating-linear-gradient(0deg, rgba(120,96,64,.028) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(120,96,64,.024) 0 1px, transparent 1px 4px), radial-gradient(120% 80% at 50% 0%, rgba(255,255,255,.6), transparent 60%); }
+.dark.tx-paisley { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='v'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .93 0 0 0 0 .88 0 0 0 0 .8 0 0 0 .06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23v)'/%3E%3C/svg%3E"), url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27150%27 height=%27150%27%3E%3Cg transform=%27translate%2812 8%29%27%3E%3Cg fill=%27none%27 stroke=%27%23C2A27C%27 stroke-opacity=%270.13%27 stroke-width=%27.6%27 stroke-linecap=%27round%27%3E%3Cpath d=%27M30 58C12 58 6 40 14 28 22 16 38 14 40 4c1 4 6 6 6 11 0 4-3 6-6 5%27/%3E%3Cpath d=%27M40 4c6 10 10 22 8 34-2 12-8 20-18 20%27/%3E%3Cpath d=%27M30 51C19 51 15 40 20 32c5-8 15-10 18-17 3 8 5 16 3 24-2 8-6 12-11 12Z%27/%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%273.6%27/%3E%3Cpath d=%27M30 32.5c1.6 1.8 1.6 2.6 0 3.2M30 45.5c1.6-1.8 1.6-2.6 0-3.2M23.5 39c1.8-1.6 2.6-1.6 3.2 0M36.5 39c-1.8-1.6-2.6-1.6-3.2 0%27/%3E%3Cpath d=%27M24 24c3-1 6-3 8-6%27 stroke-dasharray=%27.6 2.2%27/%3E%3C/g%3E%3Cg fill=%27%23C2A27C%27 fill-opacity=%270.13%27%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%27.9%27/%3E%3Ccircle cx=%2751%27 cy=%2726%27 r=%27.7%27/%3E%3Ccircle cx=%2752%27 cy=%2733%27 r=%27.7%27/%3E%3Ccircle cx=%2751%27 cy=%2740%27 r=%27.7%27/%3E%3Ccircle cx=%279%27 cy=%2738%27 r=%27.7%27/%3E%3C/g%3E%3C/g%3E%3Cg transform=%27translate%28138 142%29 rotate%28180%29%27%3E%3Cg fill=%27none%27 stroke=%27%23C2A27C%27 stroke-opacity=%270.13%27 stroke-width=%27.6%27 stroke-linecap=%27round%27%3E%3Cpath d=%27M30 58C12 58 6 40 14 28 22 16 38 14 40 4c1 4 6 6 6 11 0 4-3 6-6 5%27/%3E%3Cpath d=%27M40 4c6 10 10 22 8 34-2 12-8 20-18 20%27/%3E%3Cpath d=%27M30 51C19 51 15 40 20 32c5-8 15-10 18-17 3 8 5 16 3 24-2 8-6 12-11 12Z%27/%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%273.6%27/%3E%3Cpath d=%27M30 32.5c1.6 1.8 1.6 2.6 0 3.2M30 45.5c1.6-1.8 1.6-2.6 0-3.2M23.5 39c1.8-1.6 2.6-1.6 3.2 0M36.5 39c-1.8-1.6-2.6-1.6-3.2 0%27/%3E%3Cpath d=%27M24 24c3-1 6-3 8-6%27 stroke-dasharray=%27.6 2.2%27/%3E%3C/g%3E%3Cg fill=%27%23C2A27C%27 fill-opacity=%270.13%27%3E%3Ccircle cx=%2730%27 cy=%2739%27 r=%27.9%27/%3E%3Ccircle cx=%2751%27 cy=%2726%27 r=%27.7%27/%3E%3Ccircle cx=%2752%27 cy=%2733%27 r=%27.7%27/%3E%3Ccircle cx=%2751%27 cy=%2740%27 r=%27.7%27/%3E%3Ccircle cx=%279%27 cy=%2738%27 r=%27.7%27/%3E%3C/g%3E%3C/g%3E%3Cg transform=%27translate%2872 70%29 scale%28.45%29%27%3E%3Cg fill=%27%23C2A27C%27 fill-opacity=%270.13%27%3E%3Ccircle cx=%270%27 cy=%270%27 r=%271.6%27/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), radial-gradient(90% 70% at 85% 10%, rgba(194,162,124,.08), transparent 60%), radial-gradient(80% 60% at 10% 100%, rgba(40,80,72,.3), transparent 65%); }
+/* guilloché (engine-turned) pattern fading out from a corner */
+.dark.sec::before, .split-txt::before {
+  content: ""; position: absolute; pointer-events: none; z-index: 0;
+  width: min(70vw, 900px); aspect-ratio: 1; top: -12%; right: -18%;
+  background:
+    repeating-radial-gradient(circle at 30% 30%, rgba(194,162,124,.12) 0 1px, transparent 1px 9px),
+    repeating-radial-gradient(circle at 70% 60%, rgba(194,162,124,.09) 0 1px, transparent 1px 11px);
+  -webkit-mask-image: radial-gradient(closest-side, #000 20%, transparent 100%); mask-image: radial-gradient(closest-side, #000 20%, transparent 100%);
+}
+.dark.sec, .split-txt { overflow: hidden; }
+.split-txt { position: relative; }
+.sec > .wrap, .split-txt > * { position: relative; z-index: 1; }
+
+/* boiserie: double hairline wall moulding */
+.boiserie::before, .boiserie::after { content: ""; position: absolute; pointer-events: none; border: 1px solid var(--line); z-index: 0; }
+.boiserie::before { inset: clamp(14px, 2.2vw, 34px); }
+.boiserie::after { inset: calc(clamp(14px, 2.2vw, 34px) + 7px); border-color: color-mix(in srgb, var(--accent) 22%, transparent); }
+
+/* small French ornament: hairline · fleuron · hairline */
+.orn { display: block; width: 168px; height: 18px; margin: 30px auto; color: var(--accent); }
+.orn svg { width: 100%; height: 100%; display: block; }
+
+/* ---------- header ---------- */
+.hdr { position: fixed; inset: 0 0 auto; z-index: 60; color: #EDE6DA; transition: background 600ms var(--ease), color 600ms, border-color 600ms; border-bottom: 1px solid transparent; }
+.hdr.solid { background: rgba(244,239,231,.94); color: #1C2826; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-color: rgba(28,40,38,.1); }
+.hdr-in { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; height: 80px; padding-inline: var(--g); transition: height 500ms var(--ease); }
+.hdr.solid .hdr-in { height: 66px; }
+.menu-btn { justify-self: start; display: flex; align-items: center; gap: 12px; font-size: 10.5px; letter-spacing: .3em; text-transform: uppercase; }
+.menu-btn i { width: 22px; height: 7px; position: relative; display: block; }
+.menu-btn i::before, .menu-btn i::after { content: ""; position: absolute; left: 0; right: 0; height: 1px; background: currentColor; transition: transform 500ms var(--ease), top 500ms var(--ease); }
+.menu-btn i::before { top: 0; } .menu-btn i::after { top: 6px; }
+.open .menu-btn i::before { top: 3px; transform: rotate(45deg); }
+.open .menu-btn i::after { top: 3px; transform: rotate(-45deg); }
+.brand { font-family: var(--serif); font-size: 22px; font-weight: 400; letter-spacing: .02em; white-space: nowrap; }
+.brand em { color: #C2A27C; margin-right: 4px; }
+.hdr .book { justify-self: end; font-size: 10.5px; letter-spacing: .28em; text-transform: uppercase; padding-bottom: 6px; border-bottom: 1px solid #C2A27C; }
+.open .hdr { color: #EDE6DA; background: transparent; border-color: transparent; }
+.overlay { position: fixed; inset: 0; z-index: 55; background: var(--ink); color: #EDE6DA; display: grid; grid-template-columns: 1.3fr 1fr; opacity: 0; visibility: hidden; transition: opacity 700ms var(--ease), visibility 700ms; }
+.open .overlay { opacity: 1; visibility: visible; }
+.overlay nav { display: flex; flex-direction: column; justify-content: center; padding: 110px var(--g) 50px; }
+.overlay nav a { font-family: var(--serif); font-weight: 300; font-size: clamp(32px, 3.8vw, 52px); line-height: 1.32; color: rgba(237,230,218,.55); transition: color 400ms, padding 600ms var(--ease); }
+.overlay nav a:hover { color: #EDE6DA; padding-left: 14px; }
+.overlay nav a small { font-family: var(--sans); font-size: 10.5px; letter-spacing: .2em; color: #C2A27C; vertical-align: middle; margin-right: 18px; }
+.overlay aside { border-left: 1px solid rgba(237,230,218,.12); padding: 110px var(--g) 50px; display: flex; flex-direction: column; justify-content: flex-end; gap: 26px; color: rgba(237,230,218,.72); font-size: 15px; }
+.overlay aside b { display: block; font-weight: 400; font-size: 10.5px; letter-spacing: .3em; text-transform: uppercase; color: #C2A27C; margin-bottom: 6px; }
+
+/* ---------- hero ---------- */
+.hero { position: relative; height: 100svh; min-height: 640px; max-height: 1080px; overflow: hidden; }
+.hero-photo { position: absolute; inset: 0; display: block; will-change: transform; }
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 68% 30%; animation: photoIn 2.4s var(--ease) both; }
+@keyframes photoIn { from { opacity: 0; transform: scale(1.05); } to { opacity: 1; transform: none; } }
+.hero::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(90deg, rgba(10,21,20,.92) 0%, rgba(10,21,20,.7) 30%, rgba(10,21,20,.15) 58%, rgba(10,21,20,0) 75%),
+              linear-gradient(180deg, rgba(10,21,20,.5) 0%, rgba(10,21,20,0) 18%),
+              linear-gradient(0deg, rgba(10,21,20,.55) 0%, rgba(10,21,20,0) 22%); }
+.hero-txt { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: center; padding-top: 60px; }
+.hero-txt > * { max-width: min(640px, 50vw); }
+.hero .dra { font-family: var(--serif); font-style: italic; font-size: clamp(26px, 2.4vw, 38px); color: var(--accent); line-height: 1; }
+.hero h1 { font-family: var(--serif); font-weight: 300; font-size: clamp(54px, 5.8vw, 92px); line-height: 1; letter-spacing: -.01em; margin: 6px 0 0; }
+.hero-sub { margin: 26px 0 0; font-family: var(--serif); font-style: italic; font-weight: 300; font-size: clamp(20px, 1.7vw, 26px); line-height: 1.4; color: var(--soft); max-width: 21em; }
+.hero-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 34px; margin-top: 42px; }
+.hero-meta { margin-top: 48px; font-size: 10.5px; letter-spacing: .26em; text-transform: uppercase; color: rgba(237,230,218,.55); line-height: 2; }
+.hero-meta i { font-style: normal; color: var(--accent); margin: 0 .9em; }
+.hero-txt > * { animation: fadeUp 1.6s var(--ease) both; }
+.hero-txt > *:nth-child(2) { animation-delay: .15s; } .hero-txt > *:nth-child(3) { animation-delay: .3s; } .hero-txt > *:nth-child(4) { animation-delay: .45s; } .hero-txt > *:nth-child(5) { animation-delay: .6s; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+/* ---------- numbers ---------- */
+.numbers { padding-block: clamp(56px, 6vw, 84px); border-bottom: 1px solid var(--line); }
+.numbers .wrap { display: grid; grid-template-columns: repeat(4, 1fr); }
+.num { padding: 6px clamp(14px, 2vw, 32px); border-left: 1px solid var(--line); }
+.num:first-child { border-left: 0; padding-left: 0; }
+.num b { display: block; font-family: var(--serif); font-weight: 300; font-size: clamp(40px, 3.6vw, 56px); line-height: 1; color: var(--fg); }
+.num b small { font-size: .42em; letter-spacing: .1em; margin-left: 6px; color: var(--muted); font-family: var(--sans); text-transform: uppercase; }
+.num b i { font-style: normal; color: var(--accent); }
+.num span { display: block; margin-top: 12px; font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); line-height: 1.7; max-width: 17em; }
+
+/* ---------- philosophy ---------- */
+.philo { text-align: center; }
+.philo blockquote { margin: 34px auto 0; max-width: 18em; font-family: var(--serif); font-style: italic; font-weight: 300; font-size: clamp(34px, 4vw, 60px); line-height: 1.15; color: var(--fg); }
+.philo blockquote::before, .philo blockquote::after { color: var(--accent); }
+.philo .lead { margin: 34px auto 0; text-align: center; }
+
+/* ---------- about ---------- */
+.split { display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; }
+.split-photo { margin: 0; position: relative; }
+.split-photo .ph { position: sticky; top: 0; height: 100vh; min-height: 620px; border-radius: 0; }
+.split-photo img { object-position: 50% 30%; }
+.split-txt { padding: clamp(96px, 11vw, 160px) clamp(24px, 6vw, 110px); max-width: 720px; }
+.wrap.wide { max-width: 1600px; }
+.band { position: relative; height: 92vh; min-height: 520px; overflow: hidden; }
+.band img { width: 100%; height: 115%; object-fit: cover; will-change: transform; }
+.band::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10,21,20,.82) 0%, rgba(10,21,20,.15) 55%, rgba(10,21,20,.25) 100%); }
+.band-cap { position: absolute; z-index: 2; left: 0; right: 0; bottom: clamp(40px, 7vh, 80px); color: #EDE6DA; }
+.band-cap .title { color: #EDE6DA; max-width: 15em; }
+.band-cap .eyebrow { color: #C2A27C; }
+.quote-card { margin-top: 26px; padding: 26px 0 0; border-top: 1px solid var(--line); }
+.quote-card p { margin: 0; font-family: var(--serif); font-style: italic; font-size: clamp(20px, 1.7vw, 25px); line-height: 1.4; color: var(--fg); }
+.quote-card span { display: block; margin-top: 14px; font-size: 10.5px; letter-spacing: .28em; text-transform: uppercase; color: var(--accent); }
+.creds { list-style: none; padding: 0; margin: 44px 0 0; counter-reset: c; }
+.creds li { display: grid; grid-template-columns: 52px 1fr; gap: 12px; padding: 18px 0; border-top: 1px solid var(--line); font-size: 15.5px; line-height: 1.6; color: var(--soft); }
+.creds li:last-child { border-bottom: 1px solid var(--line); }
+.creds li::before { counter-increment: c; content: "0" counter(c); font-family: var(--serif); font-size: 20px; color: var(--accent); line-height: 1.2; }
+.creds li em { font-family: var(--serif); font-size: 1.1em; color: var(--fg); }
+.roles { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 34px; font-size: 10.5px; letter-spacing: .26em; text-transform: uppercase; color: var(--muted); }
+.roles span + span::before { content: "·"; color: var(--accent); margin-right: 22px; }
+
+/* ---------- stages / trajectory ---------- */
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: clamp(200px, 19vw, 320px); grid-auto-flow: dense; gap: clamp(12px, 1.4vw, 20px); }
+.gallery figure { margin: 0; cursor: zoom-in; display: flex; flex-direction: column; min-height: 0; }
+.gallery .ph { flex: 1; min-height: 0; }
+.gallery .wide { grid-column: span 2; }
+.gallery .cap b { font-family: var(--sans); font-style: normal; font-weight: 400; font-size: 10.5px; letter-spacing: .24em; color: var(--accent); margin-right: 10px; }
+
+/* ---------- paths ---------- */
+.paths { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+.path { padding: 40px clamp(18px, 2.6vw, 40px) 36px 0; display: flex; flex-direction: column; gap: 14px; transition: background 500ms; }
+.path + .path { padding-left: clamp(18px, 2.6vw, 40px); border-left: 1px solid var(--line); }
+.path .n { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--accent); }
+.path h3 { margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(27px, 2.3vw, 36px); line-height: 1.1; }
+.path p { margin: 0; color: var(--soft); font-size: 15.5px; }
+.path .link { margin-top: auto; align-self: flex-start; }
+.path { min-height: 290px; }
+
+/* ---------- results ---------- */
+.ba-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(14px, 1.6vw, 24px); }
+.ba-grid figure { margin: 0; }
+.ba { position: relative; aspect-ratio: 4 / 5; width: 100%; overflow: hidden; border-radius: var(--r); background: rgba(0,0,0,.06); cursor: ew-resize; touch-action: pan-y; user-select: none; -webkit-user-select: none; --pos: 50%; }
+.ba img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+.ba .bf { position: absolute; inset: 0; clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+.ba .ln { position: absolute; top: 0; bottom: 0; left: var(--pos); width: 1px; background: #fff; z-index: 2; }
+.ba .kn { position: absolute; z-index: 3; top: 50%; left: var(--pos); transform: translate(-50%,-50%); width: 48px; height: 48px; border-radius: 50%; border: 1px solid #fff; background: rgba(12,25,24,.35); backdrop-filter: blur(6px); display: grid; place-items: center; color: #fff; font-size: 10px; letter-spacing: .2em; }
+.ba .tg { position: absolute; z-index: 2; top: 14px; font-size: 9.5px; letter-spacing: .26em; text-transform: uppercase; color: #fff; background: rgba(12,25,24,.55); backdrop-filter: blur(4px); padding: 6px 12px; border-radius: 999px; }
+.ba .tg.l { left: 14px; } .ba .tg.r { right: 14px; }
+.ba-grid figcaption { margin-top: 14px; display: flex; gap: 12px; align-items: baseline; font-family: var(--serif); font-size: 19px; }
+.ba-grid figcaption span { font-family: var(--sans); font-size: 10.5px; letter-spacing: .2em; color: var(--accent); }
+.res-cta { padding: 28px 30px; background: var(--card); border: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 18px 26px; border-radius: var(--r); }
+.res-cta h3 { margin: 0; font-family: var(--serif); font-weight: 400; font-size: 23px; }
+.res-cta p { margin: 4px 0 0; font-size: 14px; color: var(--soft); }
+.note { margin-top: 18px; font-family: var(--serif); font-style: italic; font-size: 14.5px; color: var(--muted); }
+
+/* ---------- reviews ---------- */
+.rev-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 26px 40px; margin-bottom: clamp(40px, 5vw, 64px); }
+.score { display: flex; align-items: center; gap: 18px; margin-top: 26px; font-size: 13.5px; color: var(--soft); line-height: 1.6; }
+.score b { font-family: var(--serif); font-weight: 300; font-size: 54px; line-height: 1; color: var(--fg); }
+.stars { color: var(--accent); letter-spacing: 3px; font-size: 13px; }
+.arrows { display: flex; gap: 10px; }
+.arrows button { width: 50px; height: 50px; border-radius: 50%; border: 1px solid var(--line); color: var(--fg); display: grid; place-items: center; font-size: 16px; transition: background 300ms, border-color 300ms; }
+.arrows button:hover { border-color: var(--accent); background: var(--card); }
+.carousel { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding-bottom: 4px; }
+.carousel::-webkit-scrollbar { display: none; }
+.review { flex: 0 0 min(86%, 380px); scroll-snap-align: start; margin: 0; padding: 30px 30px 26px; border: 1px solid var(--line); background: var(--card); display: flex; flex-direction: column; gap: 16px;  border-radius: var(--r);}
+.review .top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.review .tag { font-size: 9.5px; letter-spacing: .24em; text-transform: uppercase; color: var(--accent); }
+.review blockquote { margin: 0; font-family: var(--serif); font-size: 18.5px; line-height: 1.5; color: var(--fg); }
+.review figcaption { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 10px; font-size: 13px; }
+.review figcaption b { font-weight: 400; color: var(--fg); }
+.review figcaption span { color: var(--muted); font-size: 12px; }
+.rev-foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px 24px; margin-top: 30px; font-size: 13px; color: var(--muted); font-style: italic; font-family: var(--serif); }
+
+/* ---------- consultation ---------- */
+.steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(20px, 3vw, 44px); counter-reset: s; }
+.steps li { border-top: 1px solid var(--fg); padding-top: 24px; }
+.steps li::before { counter-increment: s; content: "0" counter(s); display: block; font-family: var(--serif); font-style: italic; font-size: 30px; line-height: 1; color: var(--accent); margin-bottom: 22px; }
+.steps h3 { margin: 0 0 8px; font-family: var(--serif); font-weight: 400; font-size: 22px; }
+.steps p { margin: 0; color: var(--soft); font-size: 15px; }
+.price { margin-top: clamp(56px, 7vw, 90px); padding: clamp(28px, 3vw, 40px) clamp(24px, 3vw, 44px); background: var(--card); border: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px 40px;  border-radius: var(--r);}
+.price .k { font-size: 10.5px; letter-spacing: .3em; text-transform: uppercase; color: var(--accent); }
+.price .v { font-family: var(--serif); font-weight: 300; font-size: clamp(30px, 2.8vw, 42px); line-height: 1.15; margin-top: 8px; }
+.price p { margin: 6px 0 0; color: var(--soft); font-size: 15px; max-width: 34em; }
+
+/* ---------- plans ---------- */
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(14px, 1.6vw, 22px); }
+.plan { padding: clamp(28px, 2.8vw, 38px); border: 1px solid var(--line); background: var(--card); display: flex; flex-direction: column; gap: 14px; min-height: 290px; transition: border-color 500ms, transform 600ms var(--ease);  border-radius: var(--r);}
+.plan:hover { border-color: var(--accent); transform: translateY(-4px); }
+.plan .k { font-size: 10px; letter-spacing: .26em; text-transform: uppercase; color: var(--accent); }
+.plan h3 { margin: 0; font-family: var(--serif); font-weight: 300; font-size: clamp(27px, 2.3vw, 34px); line-height: 1.1; }
+.plan p { margin: 0; color: var(--soft); font-size: 15px; }
+.plan .gift { font-family: var(--serif); font-style: italic; font-size: 17px; color: var(--accent); }
+.plan .link { margin-top: auto; align-self: flex-start; }
+.plan.feat { background: linear-gradient(160deg, #1A3A35, #10211F); border-color: rgba(194,162,124,.6); }
+
+/* ---------- clinic ---------- */
+.mosaic { display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: clamp(200px, 19vw, 320px); gap: clamp(12px, 1.4vw, 20px); }
+.mosaic figure { margin: 0; cursor: zoom-in; display: flex; flex-direction: column; min-height: 0; }
+.mosaic .ph { flex: 1; min-height: 0; }
+.mosaic .big { grid-row: span 2; }
+
+/* ---------- dermocosmetics ---------- */
+.dermo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 7vw, 120px); align-items: center; }
+.dermo-photo { margin: 0; }
+.dermo-photo .ph { aspect-ratio: 4 / 5; min-height: 70vh; }
+.feats { margin-top: 36px; border-top: 1px solid var(--line); }
+.feats div { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.feats h3 { margin: 0 0 4px; font-family: var(--serif); font-weight: 400; font-size: 22px; }
+.feats p { margin: 0; color: var(--soft); font-size: 15px; }
+
+/* ---------- faq ---------- */
+.faq-grid { display: grid; grid-template-columns: 1fr 1.35fr; gap: clamp(40px, 7vw, 120px); }
+details { border-top: 1px solid var(--line); }
+details:last-child { border-bottom: 1px solid var(--line); }
+summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; gap: 24px; padding: 22px 0; font-family: var(--serif); font-size: clamp(19px, 1.5vw, 22px); line-height: 1.35; transition: color 300ms; }
+summary::-webkit-details-marker { display: none; }
+summary:hover { color: var(--accent); }
+summary::after { content: "+"; font-family: var(--sans); font-weight: 300; font-size: 22px; line-height: 1.1; color: var(--accent); transition: transform 500ms var(--ease); }
+details[open] summary::after { transform: rotate(45deg); }
+details p { margin: -4px 0 26px; max-width: 36em; color: var(--soft); font-size: 15.5px; }
+
+/* ---------- contact + footer ---------- */
+.cta-final { text-align: center; }
+.cta-final .title { font-size: clamp(38px, 4.4vw, 66px); }
+.cta-final .tel { display: block; margin-top: 22px; font-size: 12px; letter-spacing: .18em; color: var(--muted); }
+.units { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(18px, 2vw, 26px); margin-top: clamp(70px, 9vw, 120px); text-align: left; }
+.unit { padding: clamp(28px, 3vw, 42px); border: 1px solid var(--line); background: var(--card);  border-radius: var(--r);}
+.unit h3 { margin: 12px 0 10px; font-family: var(--serif); font-weight: 300; font-size: clamp(28px, 2.4vw, 36px); }
+.unit address { font-style: normal; color: var(--soft); font-size: 15px; line-height: 1.85; }
+.unit .ls { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 22px; }
+.ftr { padding-block: clamp(56px, 6vw, 80px) 36px; }
+.ftr-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 36px; padding-bottom: 40px; border-bottom: 1px solid var(--line); }
+.ftr .brand { font-size: 26px; display: block; }
+.ftr .brand em { color: var(--accent); }
+.ftr p, .ftr a { display: block; font-size: 14.5px; color: var(--soft); margin: 0 0 8px; line-height: 1.6; }
+.ftr a:hover { color: var(--accent); }
+.ftr h4 { margin: 0 0 16px; font-size: 10.5px; letter-spacing: .28em; text-transform: uppercase; font-weight: 400; color: var(--accent); }
+.ftr-bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; padding-top: 24px; font-size: 12px; color: var(--muted); }
+
+/* whatsapp */
+.wa { position: fixed; right: clamp(16px, 2.4vw, 32px); bottom: clamp(16px, 2.4vw, 32px); z-index: 50; width: 54px; height: 54px; border-radius: 50%; background: #C2A27C; color: var(--ink); display: grid; place-items: center; box-shadow: 0 14px 30px -12px rgba(0,0,0,.5); opacity: 0; transform: translateY(14px); pointer-events: none; transition: opacity 600ms var(--ease), transform 600ms var(--ease); }
+.wa.show { opacity: 1; transform: none; pointer-events: auto; }
+.wa svg { width: 22px; height: 22px; }
+
+/* lightbox */
+.lb { border: 0; padding: 0; margin: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; background: rgba(8,17,16,.97); color: #EDE6DA; }
+.lb::backdrop { background: rgba(8,17,16,.9); }
+.lb[open] { display: flex; align-items: center; justify-content: center; animation: fd .5s var(--ease); }
+@keyframes fd { from { opacity: 0; } }
+.lb figure { margin: 0; text-align: center; }
+.lb img { max-width: 88vw; max-height: 80dvh; object-fit: contain; }
+.lb figcaption { margin-top: 16px; font-family: var(--serif); font-style: italic; font-size: 17px; color: #8D9692; }
+.lb .x, .lb .pv, .lb .nx { position: absolute; font-size: 10.5px; letter-spacing: .3em; text-transform: uppercase; opacity: .7; padding: 14px; }
+.lb .x:hover, .lb .pv:hover, .lb .nx:hover { opacity: 1; }
+.lb .x { top: 22px; right: 26px; } .lb .pv { left: 22px; top: 50%; } .lb .nx { right: 22px; top: 50%; }
+
+/* reveal */
+.js .rv { opacity: 0; transform: translateY(32px); transition: opacity 1.4s var(--ease), transform 1.4s var(--ease); }
+.js .rv.in { opacity: 1; transform: none; }
+.d1 { transition-delay: .12s !important; } .d2 { transition-delay: .24s !important; } .d3 { transition-delay: .36s !important; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 980px) {
+  .hdr .book { display: none; }
+  .hdr-in { grid-template-columns: auto 1fr; }
+  .brand { justify-self: end; font-size: 19px; }
+  .overlay { grid-template-columns: 1fr; }
+  .overlay aside { display: none; }
+  .head, .res-grid, .dermo-grid, .faq-grid, .split { grid-template-columns: minmax(0, 1fr); }
+  .split-photo .ph { position: relative; height: 82svh; min-height: 0; }
+  .split-txt { padding: 72px var(--g); }
+  .band { height: 70svh; }
+  .numbers .wrap { grid-template-columns: 1fr 1fr; row-gap: 30px; }
+  .num:nth-child(3) { border-left: 0; padding-left: 0; }
+  .gallery { grid-template-columns: 1fr 1fr; grid-auto-rows: 44vw; }
+  .paths, .plans { grid-template-columns: 1fr; }
+  .path, .path + .path { padding: 32px 0; border-left: 0; min-height: 0; }
+  .path + .path { border-top: 1px solid var(--line); }
+  .plan { min-height: 0; }
+  .steps { grid-template-columns: 1fr 1fr; row-gap: 40px; }
+  .mosaic { grid-template-columns: 1fr 1fr; grid-auto-rows: 44vw; }
+  .mosaic .big { grid-column: span 2; grid-row: auto; }
+  .ba-grid { grid-template-columns: 1fr 1fr; }
+  .dermo-photo .ph { min-height: 0; }
+  .units { grid-template-columns: 1fr; }
+  .ftr-grid { grid-template-columns: 1fr 1fr; }
+  .hero { height: auto; min-height: 100svh; max-height: none; }
+  .hero-photo { height: 64svh; bottom: auto; }
+  .hero-photo img { object-position: 74% 20%; }
+  .hero::after { background: linear-gradient(0deg, var(--ink) 38%, rgba(12,25,24,.6) 52%, rgba(12,25,24,0) 68%), linear-gradient(180deg, rgba(10,21,20,.6) 0%, rgba(10,21,20,0) 16%); }
+  .hero-txt { justify-content: flex-end; min-height: 100svh; padding-bottom: 56px; }
+  .hero-txt > * { max-width: none; }
+  .hero h1 { font-size: 15vw; }
+}
+@media (max-width: 560px) {
+  .steps { grid-template-columns: 1fr; }
+  .ba-grid { grid-template-columns: 1fr; }
+  .ftr-grid { grid-template-columns: 1fr; }
+  .btn { width: 100%; }
+  .num b { font-size: 38px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; scroll-behavior: auto !important; }
+  .js .rv { opacity: 1; transform: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="hdr" id="hdr">
+  <div class="hdr-in">
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="overlay"><i></i><span>Menu</span></button>
+    <a class="brand" href="#inicio" aria-label="Início"><em>Dra.</em>Ana Paula Alves</a>
+    <a class="book" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Ana%20Paula%20Alves." target="_blank" rel="noopener">Agendar avaliação</a>
+  </div>
+</header>
+
+<div class="overlay" id="overlay" aria-hidden="true">
+  <nav aria-label="Principal">
+    <a href="#a-dra"><small>01</small>A Dra. Ana Paula</a>
+    <a href="#palcos"><small>02</small>Trajetória</a>
+    <a href="#tratamentos"><small>03</small>Tratamentos</a>
+    <a href="#resultados"><small>04</small>Antes e depois</a>
+    <a href="#depoimentos"><small>05</small>Avaliações</a>
+    <a href="#consulta"><small>06</small>Primeira consulta</a>
+    <a href="#planos"><small>07</small>Planos e Clube da Beleza</a>
+    <a href="#clinica"><small>08</small>A clínica</a>
+    <a href="#faq"><small>09</small>Dúvidas</a>
+    <a href="#localizacao"><small>10</small>Onde atendo</a>
+  </nav>
+  <aside>
+    <div><b>Agendamento</b>WhatsApp (31) 98014-0549</div>
+    <div><b>Conselheiro Lafaiete</b>Av. Prof. Manoel Martins, 491 · Sala 712</div>
+    <div><b>Belo Horizonte</b>Av. Barbacena, 600 · Barro Preto</div>
+    <div><b>Redes</b>@draanapaula.clinica</div>
+  </aside>
+</div>
+
+<main>
+
+<!-- 1. HERO (dark) -->
+<section class="hero dark" id="inicio">
+  <picture class="hero-photo" data-hero-photo>
+    <source srcset="imagens/fotos/retrato-lounge.webp" type="image/webp" />
+    <img src="imagens/fotos/retrato-lounge.jpg" alt="Dra. Ana Paula Alves, farmacêutica esteta" fetchpriority="high" />
+  </picture>
+  <div class="wrap hero-txt">
+    <span class="dra">Dra.</span>
+    <h1>Ana Paula Alves</h1>
+    <p class="hero-sub">Ciência, experiência e um olhar integrativo para a sua pele e os seus cabelos.</p>
+    <div class="hero-acts">
+      <a class="btn fill" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Ana%20Paula%20Alves." target="_blank" rel="noopener">Agendar minha avaliação</a>
+      <a class="link" href="#resultados">Ver resultados</a>
+    </div>
+    <p class="hero-meta">Farmacêutica esteta <i>·</i> Mestre em Ciências Farmacêuticas <i>·</i> CRF-MG 12533</p>
+  </div>
+</section>
+
+<!-- 2. NUMBERS + PHILOSOPHY (light) -->
+<section class="light tx-paisley" aria-label="Números">
+  <div class="numbers">
+    <div class="wrap">
+      <div class="num rv"><b>26<small>anos</small></b><span>De experiência profissional</span></div>
+      <div class="num rv d1"><b><i>+</i>10<small>anos</small></b><span>Exclusivamente na estética avançada e tricologia</span></div>
+      <div class="num rv d2"><b><i>+</i>10.000</b><span>Alunos formados em cursos nacionais e internacionais</span></div>
+      <div class="num rv d3"><b><i>+</i>7.000</b><span>Pacientes atendidos</span></div>
+    </div>
+  </div>
+  <div class="sec philo boiserie">
+    <div class="wrap">
+      <span class="eyebrow rv">Filosofia</span>
+      <h2 class="title rv">A verdadeira beleza começa com saúde, <em>de dentro para fora.</em></h2>
+      <span class="orn rv" aria-hidden="true"><svg viewBox="0 0 168 18" fill="none" stroke="currentColor" stroke-width=".8"><path d="M0 9h62M106 9h62"/><path d="M84 1c3 4 3 6 0 8-3-2-3-4 0-8Zm0 16c3-4 3-6 0-8-3 2-3 4 0 8ZM76 9c4-3 6-3 8 0-2 3-4 3-8 0Zm16 0c-4-3-6-3-8 0 2 3 4 3 8 0Z"/><circle cx="68" cy="9" r="1.4" fill="currentColor" stroke="none"/><circle cx="100" cy="9" r="1.4" fill="currentColor" stroke="none"/></svg></span>
+      <blockquote class="rv d1" style="margin-top:0">“A pele fala do que o corpo sofre.”</blockquote>
+      <p class="lead rv d2">Rejuvenescimento é beleza, saúde e bem-estar em equilíbrio. Por isso cada paciente é avaliada como um todo, nunca em procedimentos isolados. Protocolos individualizados, com segurança e naturalidade.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3. ABOUT (dark) -->
+<section class="dark" id="a-dra">
+  <div class="split">
+    <figure class="split-photo">
+      <div class="ph"><picture><source srcset="imagens/fotos/retrato-poltrona.webp" type="image/webp" /><img src="imagens/fotos/retrato-poltrona.jpg" alt="Dra. Ana Paula Alves" loading="lazy" /></picture></div>
+    </figure>
+    <div class="split-txt">
+      <span class="eyebrow rv">Autoridade científica</span>
+      <h2 class="title rv">Farmacêutica, professora e <em>pesquisadora.</em></h2>
+      <p class="lead rv">Farmacêutica e mestre em Ciências Farmacêuticas, há mais de 10 anos dedicada exclusivamente à estética avançada e à tricologia. Leva para o consultório o rigor de quem ensina profissionais no Brasil e no exterior.</p>
+      <ol class="creds">
+        <li class="rv"><div>Mestre em Ciências Farmacêuticas e especialista em Farmácia Clínica</div></li>
+        <li class="rv"><div>Especialista em Cosmética, Estética Avançada e Tricologia</div></li>
+        <li class="rv"><div>Professora do <em>International Training in Anatomy and Facial Rejuvenation</em> (Harvard / Boston)</div></li>
+        <li class="rv"><div>Coordenadora do GTT de Estética do CRF-MG e consultora <em>ad hoc</em></div></li>
+        <li class="rv"><div>Idealizadora dos métodos <em>Melasma Cross Talk</em> e <em>PHEN PEEL</em></div></li>
+        <li class="rv"><div>Coautora dos livros <em>Complicações</em> e <em>Uso da Ultrassonografia na Estética</em></div></li>
+      </ol>
+      <div class="roles rv"><span>Farmacêutica</span><span>International Trainer &amp; Speaker</span><span>Professora</span><span>Mestre em Ciências Farmacêuticas</span><span>Tricologia</span></div>
+      <div class="quote-card rv" style="margin-top:44px"><span class="orn" style="margin:0 0 22px" aria-hidden="true"><svg viewBox="0 0 168 18" fill="none" stroke="currentColor" stroke-width=".8"><path d="M0 9h62M106 9h62"/><path d="M84 1c3 4 3 6 0 8-3-2-3-4 0-8Zm0 16c3-4 3-6 0-8-3 2-3 4 0 8ZM76 9c4-3 6-3 8 0-2 3-4 3-8 0Zm16 0c-4-3-6-3-8 0 2 3 4 3 8 0Z"/><circle cx="68" cy="9" r="1.4" fill="currentColor" stroke="none"/><circle cx="100" cy="9" r="1.4" fill="currentColor" stroke="none"/></svg></span><p>“Meu compromisso é aliar ciência, inovação e segurança para transformar a estética em saúde e bem-estar.”</p><span>Dra. Ana Paula Alves</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. STAGES / TRAJECTORY (light) -->
+<section class="sec light paper" id="palcos">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv">Nos palcos</span><h2 class="title rv">Palestrante nacional <em>e internacional.</em></h2></div>
+      <p class="lead rv d1">Do CongreHOF a Boston e Porto: aulas, palestras e imersões práticas que levam a mesma ciência para dentro do consultório.</p>
+    </div>
+    <div class="gallery" data-lb>
+      <figure class="wide rv"><div class="ph"><img src="imagens/fotos/internacional/harvard-club-boston-2022.jpg" alt="Dra. Ana Paula Alves palestrando no Harvard Club of Boston em 2022" loading="lazy" style="object-position:55% 45%" /></div><figcaption class="cap"><b>2022</b>Palestra no Harvard Club of Boston</figcaption></figure>
+      <figure class="rv d1"><div class="ph"><img src="imagens/fotos/internacional/harvard-medical-school-2023.jpg" alt="Dra. Ana Paula Alves na Harvard Medical School, Boston, 2023" loading="lazy" style="object-position:62% 46%" /></div><figcaption class="cap"><b>2023</b>Harvard Medical School</figcaption></figure>
+      <figure class="rv d2"><div class="ph"><img src="imagens/fotos/congresso/palestra-palco.jpg" alt="Dra. Ana Paula Alves no palco do CongreHOF com a palestra Tricologia de Precisão" loading="lazy" style="object-position:50% 40%" /></div><figcaption class="cap"><b>BR</b>“Tricologia de Precisão”, CongreHOF</figcaption></figure>
+      <figure class="rv"><div class="ph"><img src="imagens/fotos/internacional/porto-portugal-2022.jpg" alt="Mestrado em Harmonização Facial no Porto, Portugal, 2022" loading="lazy" style="object-position:50% 62%" /></div><figcaption class="cap"><b>2022</b>Mestrado em Harmonização · Porto</figcaption></figure>
+      <figure class="rv d1"><div class="ph"><img src="imagens/fotos/treinamentos-imersoes.webp" alt="Dra. Ana Paula Alves em treinamento e imersão prática" loading="lazy" style="object-position:50% 28%" /></div><figcaption class="cap"><b>BR</b>Treinamentos e imersões práticas</figcaption></figure>
+      <figure class="wide rv d2"><div class="ph"><img src="imagens/fotos/internacional/aula-boston-2023.jpg" alt="Dra. Ana Paula Alves ministrando aula internacional em Boston, 2023" loading="lazy" style="object-position:50% 40%" /></div><figcaption class="cap"><b>2023</b>Aula internacional em Boston</figcaption></figure>
+      <figure class="wide rv"><div class="ph"><img src="imagens/fotos/internacional/cambridge-college-2023.jpg" alt="Dra. Ana Paula Alves com a turma no Cambridge College, Boston, 2023" loading="lazy" style="object-position:50% 42%" /></div><figcaption class="cap"><b>2023</b>Turma no Cambridge College · Boston</figcaption></figure>
+      <figure class="rv d1"><div class="ph"><img src="imagens/fotos/congresso/congrehof-retrato.jpg" alt="Dra. Ana Paula Alves no CongreHOF" loading="lazy" style="object-position:50% 15%" /></div><figcaption class="cap"><b>BR</b>CongreHOF</figcaption></figure>
+      <figure class="rv d2"><div class="ph"><img src="imagens/fotos/congresso/palestra-microfone.jpg" alt="Dra. Ana Paula Alves palestrando ao microfone" loading="lazy" style="object-position:50% 28%" /></div><figcaption class="cap"><b>BR</b>Palestra ao vivo</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 5. PATHS / TREATMENTS (dark) -->
+<section class="sec dark tx-paisley" id="tratamentos">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv">Por onde começar</span><h2 class="title rv">Escolha o que mais <em>te incomoda hoje.</em></h2></div>
+      <p class="lead rv d1">Três frentes de cuidado, sempre com investigação da causa e um plano feito para você.</p>
+    </div>
+    <div class="paths">
+      <div class="path rv"><span class="n">i.</span><h3>Rosto &amp; pele</h3><p>Melasma, acne, flacidez e harmonização com naturalidade.</p><a class="link" href="#resultados">Ver resultados</a></div>
+      <div class="path rv d1"><span class="n">ii.</span><h3>Cabelo &amp; couro cabeludo</h3><p>Queda, calvície e couro cabeludo, com investigação de causa.</p><a class="link" href="#resultados">Ver resultados</a></div>
+      <div class="path rv d2"><span class="n">iii.</span><h3>Corpo &amp; saúde integrativa</h3><p>Medidas, estrias, laser e acompanhamento integrativo.</p><a class="link" href="#planos">Ver planos</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. RESULTS (light) -->
+<section class="sec light" id="resultados">
+  <div class="wrap wide">
+    <div class="head">
+      <div><span class="eyebrow rv">Prova real</span><h2 class="title rv">Antes e depois de <em>pacientes reais.</em></h2></div>
+      <p class="lead rv d1">Cada pele e cada fio respondem de forma diferente. Na avaliação eu explico o que é possível no seu caso. Arraste cada imagem para comparar.</p>
+    </div>
+    <div class="ba-grid">
+      <figure class="rv"><div class="ba" data-ba tabindex="0" role="slider" aria-label="Comparar antes e depois: marcas de expressão" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img src="imagens/resultados/qualidade-pele-depois.jpg" alt="Depois: marcas de expressão" draggable="false" loading="lazy" style="object-position:50% 62%" /><div class="bf"><img src="imagens/resultados/qualidade-pele-antes.jpg" alt="Antes: marcas de expressão" draggable="false" loading="lazy" style="object-position:50% 62%" /></div><span class="tg l">Antes</span><span class="tg r">Depois</span><span class="ln" aria-hidden="true"></span><span class="kn" aria-hidden="true">‹ ›</span></div><figcaption><span>01</span>Marcas de expressão</figcaption></figure>
+      <figure class="rv d1"><div class="ba" data-ba tabindex="0" role="slider" aria-label="Comparar antes e depois: tricologia · alopecia" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img src="imagens/resultados/tricologia-alopecia-depois.jpg" alt="Depois: tricologia · alopecia" draggable="false" loading="lazy" style="object-position:50% 40%" /><div class="bf"><img src="imagens/resultados/tricologia-alopecia-antes.jpg" alt="Antes: tricologia · alopecia" draggable="false" loading="lazy" style="object-position:50% 40%" /></div><span class="tg l">Antes</span><span class="tg r">Depois</span><span class="ln" aria-hidden="true"></span><span class="kn" aria-hidden="true">‹ ›</span></div><figcaption><span>02</span>Tricologia · Alopecia</figcaption></figure>
+      <figure class="rv d2"><div class="ba" data-ba tabindex="0" role="slider" aria-label="Comparar antes e depois: clareamento de olheiras" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img src="imagens/resultados/lash-lifting-depois.jpg" alt="Depois: clareamento de olheiras" draggable="false" loading="lazy" style="object-position:50% 45%" /><div class="bf"><img src="imagens/resultados/lash-lifting-antes.jpg" alt="Antes: clareamento de olheiras" draggable="false" loading="lazy" style="object-position:50% 45%" /></div><span class="tg l">Antes</span><span class="tg r">Depois</span><span class="ln" aria-hidden="true"></span><span class="kn" aria-hidden="true">‹ ›</span></div><figcaption><span>03</span>Clareamento de olheiras</figcaption></figure>
+      <figure class="rv"><div class="ba" data-ba tabindex="0" role="slider" aria-label="Comparar antes e depois: rejuvenescimento facial" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img src="imagens/resultados/rejuvenescimento-facial-depois.jpg" alt="Depois: rejuvenescimento facial" draggable="false" loading="lazy" style="object-position:50% 35%" /><div class="bf"><img src="imagens/resultados/rejuvenescimento-facial-antes.jpg" alt="Antes: rejuvenescimento facial" draggable="false" loading="lazy" style="object-position:50% 35%" /></div><span class="tg l">Antes</span><span class="tg r">Depois</span><span class="ln" aria-hidden="true"></span><span class="kn" aria-hidden="true">‹ ›</span></div><figcaption><span>04</span>Rejuvenescimento facial</figcaption></figure>
+      <figure class="rv d1"><div class="ba" data-ba tabindex="0" role="slider" aria-label="Comparar antes e depois: firmeza e qualidade da pele" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img src="imagens/resultados/firmeza-pele-depois.jpg" alt="Depois: firmeza e qualidade da pele" draggable="false" loading="lazy" style="object-position:50% 55%" /><div class="bf"><img src="imagens/resultados/firmeza-pele-antes.jpg" alt="Antes: firmeza e qualidade da pele" draggable="false" loading="lazy" style="object-position:50% 55%" /></div><span class="tg l">Antes</span><span class="tg r">Depois</span><span class="ln" aria-hidden="true"></span><span class="kn" aria-hidden="true">‹ ›</span></div><figcaption><span>05</span>Firmeza e qualidade da pele</figcaption></figure>
+      <figure class="rv d2"><div class="ba" data-ba tabindex="0" role="slider" aria-label="Comparar antes e depois: tricologia · densidade capilar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><img src="imagens/resultados/tricologia-masculina-depois.jpg" alt="Depois: tricologia · densidade capilar" draggable="false" loading="lazy" style="object-position:50% 45%" /><div class="bf"><img src="imagens/resultados/tricologia-masculina-antes.jpg" alt="Antes: tricologia · densidade capilar" draggable="false" loading="lazy" style="object-position:50% 45%" /></div><span class="tg l">Antes</span><span class="tg r">Depois</span><span class="ln" aria-hidden="true"></span><span class="kn" aria-hidden="true">‹ ›</span></div><figcaption><span>06</span>Tricologia · Densidade capilar</figcaption></figure>
+    </div>
+    <div class="res-cta rv" style="margin-top:clamp(40px,5vw,64px)">
+      <div><h3>Quer ver um caso parecido com o seu?</h3><p>Me diga o que você quer tratar e eu envio resultados de casos semelhantes.</p></div>
+      <a class="btn" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Gostaria%20de%20ver%20resultados%20de%20casos%20parecidos%20com%20o%20meu." target="_blank" rel="noopener">Pedir no WhatsApp</a>
+    </div>
+    <p class="note">Os resultados variam conforme a indicação clínica e a resposta individual de cada paciente.</p>
+  </div>
+</section>
+
+<!-- 7. REVIEWS (dark) -->
+<section class="sec dark deep" id="depoimentos">
+  <div class="wrap">
+    <div class="rev-head">
+      <div>
+        <span class="eyebrow rv">Quem já passou por aqui</span>
+        <h2 class="title rv">A fidelização é o nosso <em>melhor indicador.</em></h2>
+        <div class="score rv"><b>5,0</b><div><span class="stars">★★★★★</span><br/>Quase 40 avaliações positivas no Google.<br/>Pacientes de Conselheiro Lafaiete, Ouro Branco, Congonhas e região.</div></div>
+      </div>
+      <div class="arrows rv"><button type="button" data-car="-1" aria-label="Avaliações anteriores">←</button><button type="button" data-car="1" aria-label="Próximas avaliações">→</button></div>
+    </div>
+    <div class="carousel" data-carousel aria-label="Avaliações de pacientes no Google">
+      <figure class="review"><div class="top"><span class="tag">Tratamento capilar</span><span class="stars">★★★★★</span></div><blockquote>Estou passando pelo processo de transição capilar, e todos nós sabemos o quão difícil é passar por essa fase, meu cabelo estava com quebra e queda severa e sem crescimento aparente. Eu decidi iniciar o tratamento capilar com a Dra. Ana Paula e a queridíssima Fernanda Campos, e essa decisão foi minha salvação, em menos de 1 mês meu cabelo evoluiu o que não vi em 6 meses de tratamento. Parabéns às profissionais Ana Paula e Fernanda pelo profissionalismo e cordialidade com os pacientes.</blockquote><figcaption><b>Camila Chagas</b><span>5 meses atrás</span></figcaption></figure>
+      <figure class="review"><div class="top"><span class="tag">Melasma e capilar</span><span class="stars">★★★★★</span></div><blockquote>Clínica linda, pessoal muito educado. A Dra. Ana é excelente profissional, muito cuidadosa, inteligente e tem muito conhecimento sobre os procedimentos. Fiz tratamento de melasma, tratamento pra reduzir gordura abdominal, a drenagem é maravilhosa e o cuidado com os cabelos foi maravilhoso... Além de ter produtos de ótima qualidade que ajudam a continuar os tratamentos em casa. Super indico!</blockquote><figcaption><b>Bruna Rodrigues</b><span>6 meses atrás</span></figcaption></figure>
+      <figure class="review"><div class="top"><span class="tag">Melasma</span><span class="stars">★★★★★</span></div><blockquote>Super recomendo em tudo que faz. Única profissional que deu conta de estabilizar meu melasma.</blockquote><figcaption><b>Rosilaine Soares</b><span>6 meses atrás</span></figcaption></figure>
+      <figure class="review"><div class="top"><span class="tag">Consulta</span><span class="stars">★★★★★</span></div><blockquote>Foi excelente! Atendimento de primeira qualidade e com uma profissional super competente, além de ser atenciosa, simpática e esclarecedora. Consulta altamente produtiva. Fiquei satisfeitíssimo! Só tenho a agradecer!</blockquote><figcaption><b>Otacir Marioza</b><span>4 meses atrás</span></figcaption></figure>
+      <figure class="review"><div class="top"><span class="tag">Consulta</span><span class="stars">★★★★★</span></div><blockquote>Minha experiência com a Dra. Ana Paula foi maravilhosa! Além de ser uma profissional de altíssima competência, ela é um ser humano incrível. Foi extremamente atenciosa, tirou todas as minhas dúvidas com paciência e me transmitiu muita segurança. Saí da consulta muito feliz e bem cuidada. Recomendo de olhos fechados.</blockquote><figcaption><b>Clayd Resende</b><span>Local Guide · 5 meses atrás</span></figcaption></figure>
+      <figure class="review"><div class="top"><span class="tag">Saúde integrativa</span><span class="stars">★★★★★</span></div><blockquote>Falar do trabalho da Ana Paula é fácil, pois é notório toda a sua competência e dedicação, com foco na entrega dos melhores resultados não só na questão estética mas na saúde como um todo. Parabéns Ana, você merece seguir construindo uma trajetória repleta de sucesso.</blockquote><figcaption><b>Sandra Helena Maciel Machado</b><span>5 meses atrás</span></figcaption></figure>
+      <figure class="review"><div class="top"><span class="tag">Paciente</span><span class="stars">★★★★★</span></div><blockquote>Clínica linda, atendentes educadíssimas e a Dra. Ana Paula é excelente profissional. Sempre atualizada, os melhores produtos, super atenciosa. Confio de olhos fechados!</blockquote><figcaption><b>Leticia Calovi</b><span>um ano atrás</span></figcaption></figure>
+      <figure class="review"><div class="top"><span class="tag">Paciente há anos</span><span class="stars">★★★★★</span></div><blockquote>Sou paciente há muitos anos e sempre fui muito bem atendida. A equipe é extremamente profissional, atenciosa e faz toda a diferença no meu cuidado.</blockquote><figcaption><b>Nair Ygnatios</b><span>um ano atrás</span></figcaption></figure>
+    </div>
+    <div class="rev-foot"><span>Avaliações públicas de pacientes, no perfil da clínica no Google.</span><a class="link" href="https://maps.app.goo.gl/6SdApri8WpZyRyz2A" target="_blank" rel="noopener">Ler todas no Google</a></div>
+  </div>
+</section>
+
+<!-- 8. CONSULTATION (light) -->
+<section class="sec light boiserie tx-paisley" id="consulta">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv">Como funciona</span><h2 class="title rv">Sua primeira consulta, <em>passo a passo.</em></h2></div>
+      <p class="lead rv d1">A avaliação é uma consulta clínica de verdade, não uma triagem comercial. É dela que sai o seu plano de tratamento.</p>
+    </div>
+    <ol class="steps">
+      <li class="rv"><h3>Contato pelo WhatsApp</h3><p>Você conta o que quer tratar e a recepção agenda o melhor horário.</p></li>
+      <li class="rv d1"><h3>Avaliação com a Dra.</h3><p>Anamnese completa e investigação das causas, não só do sintoma.</p></li>
+      <li class="rv d2"><h3>Plano individualizado</h3><p>Protocolo indicado, ordem dos procedimentos, prazo e investimento.</p></li>
+      <li class="rv d3"><h3>Acompanhamento contínuo</h3><p>Retornos e ajustes ao longo do tratamento, com suporte entre as sessões.</p></li>
+    </ol>
+    <div class="price rv">
+      <div><div class="k">Consulta de avaliação</div><div class="v">Agende a sua avaliação</div><p>Inclui anamnese completa, análise clínica e o seu plano de tratamento.</p></div>
+      <a class="btn fill" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20a%20consulta%20de%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">Agendar avaliação</a>
+    </div>
+  </div>
+</section>
+
+<!-- 9. PLANS (dark) -->
+<section class="sec dark tx-paisley" id="planos">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv">Planos e protocolos</span><h2 class="title rv">Resultado consistente vem de acompanhamento, <em>não de sessão avulsa.</em></h2></div>
+      <p class="lead rv d1">Por isso trabalho com planejamento: você sabe onde está, onde vai chegar e em quanto tempo.</p>
+    </div>
+    <div class="plans">
+      <article class="plan feat rv"><span class="k">Recorrência mensal</span><h3>Clube da Beleza</h3><p>Protocolo antirrugas em assinatura: valor mensal fixo, sessões no tempo certo e benefícios exclusivos.</p><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20entrar%20no%20Clube%20da%20Beleza." target="_blank" rel="noopener">Entrar no clube</a></article>
+      <article class="plan rv d1"><span class="k">Tricologia</span><h3>Plano de tratamento capilar</h3><p>Avaliação tricológica, 6 sessões e reavaliação ao final do ciclo.</p><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20o%20plano%20de%20tratamento%20capilar." target="_blank" rel="noopener">Quero este plano</a></article>
+      <article class="plan rv d2"><span class="k">Facial</span><h3>Planejamento anual</h3><p>O seu ano de rosto no calendário: o que fazer, em qual ordem e em qual época.</p><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20entender%20o%20planejamento%20anual%20facial." target="_blank" rel="noopener">Montar meu ano</a></article>
+      <article class="plan rv"><span class="k">Combo do mês</span><h3>Shine Skin</h3><p>Protocolo antirrugas e peeling na mesma sessão, para rugas dinâmicas e viço da pele.</p><span class="gift">Ganhe 01 biorevitalização</span><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20o%20Combo%20Shine%20Skin." target="_blank" rel="noopener">Quero este combo</a></article>
+      <article class="plan rv d1"><span class="k">Combo do mês</span><h3>Perfect Lips</h3><p>Preenchimento labial: contorno e hidratação dos lábios com resultado natural, respeitando a sua proporção.</p><span class="gift">Ganhe 01 gloss</span><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20o%20Combo%20Perfect%20Lips%20%28preenchimento%20labial%29." target="_blank" rel="noopener">Quero este combo</a></article>
+      <article class="plan rv d2"><span class="k">Comunidade · 200+ membros</span><h3>Grupo VIP</h3><p>Lista fechada que recebe primeiro as condições especiais e as ações da clínica.</p><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20entrar%20no%20Grupo%20VIP%20da%20cl%C3%ADnica." target="_blank" rel="noopener">Quero entrar na lista</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- 10. CLINIC (light) -->
+<section class="sec light paper" id="clinica">
+  <div class="wrap">
+    <div class="head">
+      <div><span class="eyebrow rv">A clínica</span><h2 class="title rv">Um espaço pensado para você se sentir bem <em>antes do procedimento começar.</em></h2></div>
+      <p class="lead rv d1">Ambientes reservados, equipamentos próprios e uma equipe que acompanha cada etapa.</p>
+    </div>
+    <div class="mosaic" data-lb>
+      <figure class="big rv"><div class="ph"><img src="imagens/fotos/clinica-11.jpg" alt="Recepção da clínica com balcão iluminado e logo da Dra. Ana Paula Alves" loading="lazy" style="object-position:54% 34%" /></div><figcaption class="cap">Recepção</figcaption></figure>
+      <figure class="rv d1"><div class="ph"><img src="imagens/fotos/clinica-12.jpg" alt="Espaço café da clínica com vitrine de dermocosméticos" loading="lazy" /></div><figcaption class="cap">Espaço café</figcaption></figure>
+      <figure class="rv d2"><div class="ph"><img src="imagens/fotos/clinica-13.jpg" alt="Vitrine de dermocosméticos da clínica" loading="lazy" /></div><figcaption class="cap">Dermocosméticos</figcaption></figure>
+      <figure class="rv d1"><div class="ph"><img src="imagens/fotos/clinica-14.jpg" alt="Sala de espera da clínica" loading="lazy" style="object-position:50% 75%" /></div><figcaption class="cap">Sala de espera</figcaption></figure>
+      <figure class="rv d2"><div class="ph"><img src="imagens/fotos/clinica-15.jpg" alt="Detalhe do jardim vertical com pendentes dourados" loading="lazy" /></div><figcaption class="cap">Nos detalhes</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 11. DERMOCOSMETICS (dark) -->
+<section class="sec dark deep" id="dermocosmeticos">
+  <div class="wrap dermo-grid">
+    <figure class="dermo-photo rv"><div class="ph"><img src="imagens/fotos/clinica-13.jpg" alt="Linha própria de dermocosméticos" loading="lazy" style="object-position:50% 40%" /></div></figure>
+    <div>
+      <span class="eyebrow rv">Linha própria</span>
+      <h2 class="title rv">Dermocosméticos formulados para <em>potencializar o seu protocolo.</em></h2>
+      <p class="lead rv">Uma linha própria, nascida de anos de pesquisa em cosmetologia: o cuidado em casa alinhado a cada procedimento feito na clínica.</p>
+      <div class="feats">
+        <div class="rv"><h3>Prescrição individualizada</h3><p>Cada rotina é montada para o seu tipo de pele e para a fase do seu tratamento.</p></div>
+        <div class="rv"><h3>Ativos de alta tecnologia</h3><p>Formulações desenvolvidas com base científica e literatura atualizada.</p></div>
+        <div class="rv"><h3>Alinhada aos procedimentos</h3><p>Home care e clínica trabalhando juntos, sem antagonismo entre ativos.</p></div>
+      </div>
+      <a class="btn rv" style="margin-top:36px" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20saber%20sobre%20a%20linha%20de%20dermocosm%C3%A9ticos%20da%20cl%C3%ADnica." target="_blank" rel="noopener">Conhecer a linha</a>
+    </div>
+  </div>
+</section>
+
+<!-- 12. FAQ (light) -->
+<section class="sec light boiserie tx-paisley" id="faq">
+  <div class="wrap faq-grid">
+    <div>
+      <span class="eyebrow rv">Dúvidas frequentes</span>
+      <h2 class="title rv">O que as pacientes mais perguntam <em>antes de agendar.</em></h2>
+      <p class="lead rv">Se a sua dúvida não estiver aqui, me manda mensagem. Respondo pessoalmente quando o assunto é clínico.</p>
+      <a class="link rv" style="margin-top:28px" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Tenho%20uma%20d%C3%BAvida%20antes%20de%20agendar." target="_blank" rel="noopener">Tirar uma dúvida</a>
+    </div>
+    <div class="rv">
+      <details><summary>Farmacêutica pode realizar procedimentos estéticos injetáveis?</summary><p>Sim. A atuação do farmacêutico em estética avançada é regulamentada pelo Conselho Federal de Farmácia. Atuo com registro CRF 12533-MG, sou coordenadora do GTT de Estética do CRF-MG e professora de pós-graduações em harmonização facial.</p></details>
+      <details><summary>Vou ficar com o rosto artificial?</summary><p>Naturalidade é o critério que orienta a minha indicação: doses e volumes proporcionais à sua anatomia, em etapas quando necessário. O objetivo é você parecer descansada, não “feita”.</p></details>
+      <details><summary>Em quanto tempo vejo resultado no tratamento capilar?</summary><p>O ciclo do fio exige tempo. O plano prevê 6 sessões com reavaliação ao final, e os primeiros sinais costumam aparecer durante o protocolo.</p></details>
+      <details><summary>Moro em outra cidade. Como funciona o acompanhamento?</summary><p>Atendo Conselheiro Lafaiete, Ouro Branco, Congonhas e região, além de Belo Horizonte. Sessões em blocos para reduzir deslocamento e suporte pelo WhatsApp.</p></details>
+      <details><summary>Vocês vendem sessão avulsa?</summary><p>Como regra, não. Protocolos e planos são o que entrega resultado consistente. Exceções são avaliadas na consulta.</p></details>
+      <details><summary>O que devo levar na primeira consulta?</summary><p>Exames recentes e a lista de produtos e medicamentos em uso. Em casos capilares, venha sem produtos no couro cabeludo.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 13. LOCATIONS + CTA + FOOTER (dark) -->
+<section class="dark tx-paisley" id="localizacao">
+  <div class="sec cta-final" style="padding-bottom:0">
+    <div class="wrap">
+      <span class="eyebrow rv">Onde eu atendo</span>
+      <h2 class="title rv">Sua melhor versão começa com <em>uma boa avaliação.</em></h2>
+      <span class="orn rv" aria-hidden="true"><svg viewBox="0 0 168 18" fill="none" stroke="currentColor" stroke-width=".8"><path d="M0 9h62M106 9h62"/><path d="M84 1c3 4 3 6 0 8-3-2-3-4 0-8Zm0 16c3-4 3-6 0-8-3 2-3 4 0 8ZM76 9c4-3 6-3 8 0-2 3-4 3-8 0Zm16 0c-4-3-6-3-8 0 2 3 4 3 8 0Z"/><circle cx="68" cy="9" r="1.4" fill="currentColor" stroke="none"/><circle cx="100" cy="9" r="1.4" fill="currentColor" stroke="none"/></svg></span>
+      <p class="lead rv">Me conte o que você quer tratar. Vamos entender a causa e montar o seu plano. Duas unidades, o mesmo padrão de cuidado.</p>
+      <div class="rv" style="margin-top:38px"><a class="btn fill" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Ana%20Paula%20Alves." target="_blank" rel="noopener">Agendar pelo WhatsApp</a></div>
+      <span class="tel">Resposta pela recepção · (31) 98014-0549</span>
+      <div class="units">
+        <article class="unit rv"><span class="eyebrow">Unidade principal</span><h3>Conselheiro Lafaiete</h3><address>Edifício Central Tower<br/>Av. Prof. Manoel Martins, 491 · Sala 712<br/>Campo Alegre · CEP 36400-110 · Minas Gerais</address><div class="ls"><a class="link" href="https://maps.app.goo.gl/6SdApri8WpZyRyz2A" target="_blank" rel="noopener">Como chegar</a><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20agendar%20na%20unidade%20de%20Conselheiro%20Lafaiete." target="_blank" rel="noopener">Agendar aqui</a></div></article>
+        <article class="unit rv d1"><span class="eyebrow">Procedimentos selecionados</span><h3>Belo Horizonte</h3><address>Office Med Consultórios<br/>Av. Barbacena, 600<br/>Barro Preto · CEP 30180-060 · Minas Gerais</address><div class="ls"><a class="link" href="https://www.google.com/maps/place/Officemed+Consult%C3%B3rios+Inteligentes/@-19.9238398,-43.9560063,17z" target="_blank" rel="noopener">Como chegar</a><a class="link" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Quero%20agendar%20na%20unidade%20de%20Belo%20Horizonte." target="_blank" rel="noopener">Agendar aqui</a></div></article>
+      </div>
+    </div>
+  </div>
+  <footer class="ftr">
+    <div class="wrap">
+      <div class="ftr-grid">
+        <div><span class="brand"><em>Dra.</em>Ana Paula Alves</span><p style="margin-top:14px">Estética Avançada e Integrativa<br/>Farmacêutica · CRF 12533-MG<br/>Mestre em Ciências Farmacêuticas</p></div>
+        <div><h4>Navegar</h4><a href="#a-dra">A Dra. Ana Paula</a><a href="#resultados">Antes e depois</a><a href="#planos">Planos e Clube da Beleza</a><a href="#faq">Dúvidas frequentes</a></div>
+        <div><h4>Unidades</h4><p>Conselheiro Lafaiete · MG<br/>Av. Prof. Manoel Martins, 491 · Sala 712</p><p>Belo Horizonte · MG<br/>Av. Barbacena, 600 · Barro Preto</p></div>
+        <div><h4>Contato</h4><a href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Ana%20Paula%20Alves." target="_blank" rel="noopener">WhatsApp (31) 98014-0549</a><a href="https://www.instagram.com/draanapaula.clinica" target="_blank" rel="noopener">Instagram @draanapaula.clinica</a><a href="https://www.facebook.com/dra.anapaulaalves" target="_blank" rel="noopener">Facebook</a><a href="https://maps.app.goo.gl/6SdApri8WpZyRyz2A" target="_blank" rel="noopener">Google Meu Negócio</a></div>
+      </div>
+      <div class="ftr-bottom"><span>© 2026 Dra. Ana Paula Alves · Estética Avançada e Integrativa · CRF 12533-MG</span><span>Os resultados variam conforme a indicação clínica e a resposta individual de cada paciente.</span></div>
+    </div>
+  </footer>
+</section>
+
+</main>
+
+<a class="wa" href="https://wa.me/5531980140549?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Ana%20Paula%20Alves." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+</a>
+
+<dialog class="lb" id="lb" aria-label="Foto ampliada">
+  <button class="x" type="button" data-x>Fechar</button>
+  <button class="pv" type="button" data-pv>Anterior</button>
+  <figure><img data-li alt="" /><figcaption data-lc></figcaption></figure>
+  <button class="nx" type="button" data-nx>Próxima</button>
+</dialog>
+
+<script>
+(() => {
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* header turns light after the hero; whatsapp appears */
+  const hdr = $('#hdr'), wa = $('.wa'), hero = $('.hero');
+  const onScroll = () => {
+    hdr.classList.toggle('solid', scrollY > hero.offsetHeight - 80);
+    wa.classList.toggle('show', scrollY > hero.offsetHeight * .8);
+  };
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  /* hero parallax */
+  const hp = $('[data-hero-photo]');
+  if (!reduce) addEventListener('scroll', () => { const y = scrollY; if (y < hero.offsetHeight) hp.style.transform = `translateY(${y * .2}px)`; }, { passive: true });
+
+  /* menu */
+  const mb = $('.menu-btn'), ov = $('#overlay');
+  const setMenu = o => { document.body.classList.toggle('open', o); mb.setAttribute('aria-expanded', o); ov.setAttribute('aria-hidden', !o); document.body.style.overflow = o ? 'hidden' : ''; mb.querySelector('span').textContent = o ? 'Fechar' : 'Menu'; };
+  mb.addEventListener('click', () => setMenu(!document.body.classList.contains('open')));
+  $$('a', ov).forEach(a => a.addEventListener('click', () => setMenu(false)));
+  addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+  /* reveal */
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px', threshold: .04 });
+  $$('.rv').forEach(el => io.observe(el));
+
+  /* before / after: every slider is independent */
+  $$('[data-ba]').forEach(ba => {
+    let raf, drag = false;
+    const setPos = p => { p = Math.max(0, Math.min(100, p)); ba.style.setProperty('--pos', p + '%'); ba.setAttribute('aria-valuenow', Math.round(p)); };
+    const sweep = () => {
+      if (reduce) return setPos(50);
+      const t0 = performance.now();
+      const st = t => { const p = Math.min(1, (t - t0) / 1600), e = 1 - Math.pow(1 - p, 3); setPos(80 - 30 * e); if (p < 1) raf = requestAnimationFrame(st); };
+      raf = requestAnimationFrame(st);
+    };
+    const at = e => { const r = ba.getBoundingClientRect(); setPos((e.clientX - r.left) / r.width * 100); };
+    ba.addEventListener('pointerdown', e => { drag = true; cancelAnimationFrame(raf); ba.setPointerCapture(e.pointerId); at(e); });
+    ba.addEventListener('pointermove', e => { if (drag) at(e); });
+    ['pointerup', 'pointercancel'].forEach(t => ba.addEventListener(t, () => { drag = false; }));
+    ba.addEventListener('keydown', e => {
+      const v = +ba.getAttribute('aria-valuenow');
+      if (e.key === 'ArrowLeft') { setPos(v - 5); e.preventDefault(); }
+      if (e.key === 'ArrowRight') { setPos(v + 5); e.preventDefault(); }
+    });
+    const bo = new IntersectionObserver(es => { if (es[0].isIntersecting) { sweep(); bo.disconnect(); } }, { threshold: .5 });
+    bo.observe(ba);
+  });
+
+  /* reviews carousel */
+  const car = $('[data-carousel]');
+  $$('[data-car]').forEach(b => b.addEventListener('click', () => {
+    const card = $('.review', car); const step = card ? card.getBoundingClientRect().width + 18 : 380;
+    car.scrollBy({ left: step * +b.dataset.car, behavior: 'smooth' });
+  }));
+
+  /* lightbox */
+  const lb = $('#lb'), li = $('[data-li]'), lc = $('[data-lc]');
+  let group = [], gi = 0;
+  const render = () => { const img = group[gi]; li.src = img.currentSrc || img.src; li.alt = img.alt; const c = img.closest('figure').querySelector('figcaption'); lc.textContent = c ? c.textContent : img.alt; };
+  $$('[data-lb]').forEach(g => g.addEventListener('click', e => {
+    const fig = e.target.closest('figure'); if (!fig || !lb.showModal) return;
+    group = $$('figure img', g); gi = group.indexOf($('img', fig)); if (gi < 0) return;
+    render(); lb.showModal();
+  }));
+  const step = d => { gi = (gi + d + group.length) % group.length; render(); };
+  $('[data-pv]').addEventListener('click', () => step(-1));
+  $('[data-nx]').addEventListener('click', () => step(1));
+  $('[data-x]').addEventListener('click', () => lb.close());
+  lb.addEventListener('click', e => { if (e.target === lb) lb.close(); });
+  lb.addEventListener('keydown', e => { if (e.key === 'ArrowLeft') step(-1); if (e.key === 'ArrowRight') step(1); });
+})();
+</script>
+</body>
+</html>
